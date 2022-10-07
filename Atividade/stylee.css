@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    padding: 0;
+    margin-bottom: 50px;
+}
+.container-fluid{
+    background-color: brown;
+    display: flex;
+    width: 2000px;
+    height: 60px;
+    
+}
+.navbar-nav{
+    padding: 0;
+    margin: 0;
+    padding-left: 800px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.catalogo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.tenis1{
+    width: 200px;
+    background-color: black;
+}
+.tenis2{
+    width: 200px;
+}
+.tenis3{
+    width: 300px;
+    
+}
+.tenis4{
+    width: 200px;
+}
+.borda{
+    border: 1px solid black;
+}
+/*.t1{
+    margin-top: 100px;
+}
+.t2{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.t3{
+    margin-top: 100px;
+    padding-left: 100px;
+}*/
+.formulario {
+    background-color: brown;
+    margin: 0px auto;
+    max-width : 700px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+#titulo {
+    text-align: center;
+    font-size:2em;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.campo {
+    margin-bottom: 10px;
+    
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    font-size: 1em;
+    padding: 0.4em 2em;
+    border-radius:  10px;
+    border-width:1px;
+
+}
+
+#nome, #sobrenome {
+    width: 100%;
+    
+
+} 
+
+
+#email{
+    width: 500px;
+}
+
+input{
+    padding:5px;
+    font-size: 1em;
+}
+
+#check input{
+    width: 15px;
+    height: 15px;
+}
+
+.radio input{
+    width: 15px;
+    height: 15px;
+}
+
+select{
+    padding: 5px;
+    font-size: 1em;
+}
+
+.grupo {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+footer{
+    margin-top: 100px;
+
+}
+footer h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 1px solid black;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Lojão</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Lojão</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Coleção</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+          <div class="catalogo">
+              <div class="borda">
+              <div class="t1">
+            <img src="fotos/images.jpg" class="tenis" alt="">
+            <h3>Nike Kobe Mamba Focua <br> R$ 400,00 </h3>
+            <img src="fotos/tenis2.jpg" class="tenis2" alt="">
+            <h3>Nike Kyrie 7 <br> R$ 550,00</h3>
+          </div>
+        </div>
+             </div> 
+             <div class="borda">
+             <div class="t2">
+            <img src="fotos/tenis3.webp" class="tenis3" alt="">
+            <h3>Nike LeBron 19 <br> R$1120,00</h3>
+            <img src="fotos/tenis4.jpg" class="tenis4" alt="">
+            <h3>Nike Precision 2 <br> R$350,00</h3>
+            </div>
+          </div>
+          
+            <div class="borda">
+            <div class="t3">
+                <img src="fotos/tenis5.jpg" class="tenis5" alt="">
+                <h3>Nike LeBron Witness 5<br> R$450,00</h3>
+                <img src="fotos/tenis6.jpg" class="tenis6" alt="">
+                <h3>Nike Kyrie 5<br> R$500,00</h3>
+            </div>
+            </div>
+            </div>
+      <div class="formulario">
+
+    <form action="">
+        <div class="campo">
+            <h1 id="titulo">Caixa de sugestões</h1>
+            <p id="subtitulo">Complete com suas informações</p>
+        </div>
+
+        <div class="grupo">
+                <div class="campo">
+                    <label> <strong>Nome</strong>  </label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+               <div class=" campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                
+        </div>
+
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label required>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="campo radio">
+            <label for=""><strong>Qual é o tipo de sugestão que dejesa enviar?</strong></label>
+            <label >
+                <input type="radio" name="area"  value="frontend"> Reclamção
+            </label>
+            <label>
+                <input type="radio" name="area"  value="backend"> Recomendação
+            </label>
+            <label>
+                <input type="radio" name="area"  value="fullstack"> Ambos
+            </label>
+        </div>
+        <div class="campo">
+            <label for="senioridade"> <strong>Como classificaria nosso site?</strong></label>
+            <select name="senioridade" id="senioridade">
+                <option selected value="">Selecione</option>
+                <option value="junior">Excelente</option>
+                <option value="senior">Bom</option>
+                <option value="pleno">Péssimo</option>
+            </select>
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Deixe aqui sua sugestão:</strong></label>
+                <textarea name="experiencia" id="experiencia" rows="8" style="width:500px"></textarea>
+            </div>
+    
+            <div class="btn"> 
+                <button class="botao" type="button" onclick="Enviar()"> Concluído </button>
+            </div>
+        </div>
+        </form>
+        </div>
+</body>
+    <footer>
+        <h5>@Todos os direitos reservados.</h5>
+    </footer>
+    <script src="scriptt.js"></script>
+</html>
